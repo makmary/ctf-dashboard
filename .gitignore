@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+
+src/**.scss.d.ts
+src/**/**.scss.d.ts
+
+yarn-error.log

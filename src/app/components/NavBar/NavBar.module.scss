@@ -1,0 +1,60 @@
+@import 'src/_variables';
+
+.root {
+  height: 150px;
+  background-color: $green;
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 92px;
+  width: 92px;
+  margin-top: 16px;
+}
+
+.appbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+
+.appbar2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 200px;
+  margin-top: 24px;
+}
+
+.appbarLink {
+  color: $dark-grey;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  text-decoration-line: underline;
+}
+
+.appbarLink2 {
+  color: $dark-grey;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.375px;
+}
+
+.text {
+  color: $white;
+  text-align: center;
+}

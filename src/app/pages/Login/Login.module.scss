@@ -1,0 +1,21 @@
+@import 'src/_variables';
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.width {
+  width: 315px;
+}
+
+.text {
+  color: $white;
+  background: $green !important;
+}
+
+.link {
+  color: $white;
+}
